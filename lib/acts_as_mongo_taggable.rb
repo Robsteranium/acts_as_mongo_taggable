@@ -1,3 +1,7 @@
+require 'rubygems'
+require 'active_support'
+require 'active_support/dependencies'
+
 module ActsAsMongoTaggable
   module ClassMethods
     def all_tags_with_counts
